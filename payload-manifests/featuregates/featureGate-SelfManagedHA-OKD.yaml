@@ -73,18 +73,6 @@
                         "name": "MutatingAdmissionPolicy"
                     },
                     {
-                        "name": "NewOLMCatalogdAPIV1Metas"
-                    },
-                    {
-                        "name": "NewOLMOwnSingleNamespace"
-                    },
-                    {
-                        "name": "NewOLMPreflightPermissionChecks"
-                    },
-                    {
-                        "name": "NewOLMWebhookProviderOpenshiftServiceCA"
-                    },
-                    {
                         "name": "NodeSwap"
                     },
                     {
@@ -247,6 +235,18 @@
                     },
                     {
                         "name": "NewOLM"
+                    },
+                    {
+                        "name": "NewOLMCatalogdAPIV1Metas"
+                    },
+                    {
+                        "name": "NewOLMOwnSingleNamespace"
+                    },
+                    {
+                        "name": "NewOLMPreflightPermissionChecks"
+                    },
+                    {
+                        "name": "NewOLMWebhookProviderOpenshiftServiceCA"
                     },
                     {
                         "name": "NutanixMultiSubnets"
