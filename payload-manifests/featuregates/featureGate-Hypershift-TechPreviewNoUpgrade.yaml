@@ -25,13 +25,13 @@
                         "name": "ClusterVersionOperatorConfiguration"
                     },
                     {
-                        "name": "DualReplica"
-                    },
-                    {
                         "name": "EventedPLEG"
                     },
                     {
                         "name": "Example2"
+                    },
+                    {
+                        "name": "ExternalSnapshotMetadata"
                     },
                     {
                         "name": "MachineAPIOperatorDisableMachineHealthCheckController"
@@ -120,6 +120,9 @@
                         "name": "DNSNameResolver"
                     },
                     {
+                        "name": "DualReplica"
+                    },
+                    {
                         "name": "DyanmicServiceEndpointIBMCloud"
                     },
                     {
@@ -142,9 +145,6 @@
                     },
                     {
                         "name": "GCPCustomAPIEndpoints"
-                    },
-                    {
-                        "name": "GCPLabelsTags"
                     },
                     {
                         "name": "GatewayAPI"
@@ -247,9 +247,6 @@
                     },
                     {
                         "name": "OpenShiftPodSecurityAdmission"
-                    },
-                    {
-                        "name": "PersistentIPsForVirtualization"
                     },
                     {
                         "name": "PinnedImages"

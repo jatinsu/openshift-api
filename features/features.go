@@ -171,14 +171,6 @@ var (
 						enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
 						mustRegister()
 
-	FeatureGateGCPLabelsTags = newFeatureGate("GCPLabelsTags").
-					reportProblemsToJiraComponent("Installer").
-					contactPerson("bhb").
-					productScope(ocpSpecific).
-					enhancementPR(legacyFeatureGateWithoutEnhancement).
-					enableIn(configv1.Default, configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
-					mustRegister()
-
 	FeatureGateAlibabaPlatform = newFeatureGate("AlibabaPlatform").
 					reportProblemsToJiraComponent("cloud-provider").
 					contactPerson("jspeed").
@@ -473,6 +465,14 @@ var (
 					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
 					mustRegister()
 
+	FeatureGateExternalSnapshotMetadata = newFeatureGate("ExternalSnapshotMetadata").
+						reportProblemsToJiraComponent("Storage / Kubernetes External Components").
+						contactPerson("jdobson").
+						productScope(kubernetes).
+						enhancementPR("https://github.com/kubernetes/enhancements/issues/3314").
+						enableIn(configv1.DevPreviewNoUpgrade).
+						mustRegister()
+
 	FeatureGateExternalOIDC = newFeatureGate("ExternalOIDC").
 				reportProblemsToJiraComponent("authentication").
 				contactPerson("liouk").
@@ -594,14 +594,6 @@ var (
 					enhancementPR(legacyFeatureGateWithoutEnhancement).
 					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
 					mustRegister()
-
-	FeatureGatePersistentIPsForVirtualization = newFeatureGate("PersistentIPsForVirtualization").
-							reportProblemsToJiraComponent("CNV Network").
-							contactPerson("mduarted").
-							productScope(ocpSpecific).
-							enhancementPR(legacyFeatureGateWithoutEnhancement).
-							enableIn(configv1.Default, configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
-							mustRegister()
 
 	FeatureGateClusterMonitoringConfig = newFeatureGate("ClusterMonitoringConfig").
 						reportProblemsToJiraComponent("Monitoring").
@@ -749,11 +741,8 @@ var (
 				contactPerson("jaypoulz").
 				productScope(ocpSpecific).
 				enhancementPR("https://github.com/openshift/enhancements/pull/1675").
-		// TODO: Do not go GA until jira issue is resolved: https://issues.redhat.com/browse/OCPEDGE-1637
-		// Annotations must correctly handle either DualReplica or HighlyAvailableArbiter going GA with
-		// the other still in TechPreview.
-		enableIn(configv1.DevPreviewNoUpgrade).
-		mustRegister()
+				enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
+				mustRegister()
 
 	FeatureGateGatewayAPIController = newFeatureGate("GatewayAPIController").
 					reportProblemsToJiraComponent("Routing").
