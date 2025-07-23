@@ -106,13 +106,13 @@
                         "name": "ExternalOIDCWithUIDAndExtraClaimMappings"
                     },
                     {
+                        "name": "ExternalSnapshotMetadata"
+                    },
+                    {
                         "name": "GCPClusterHostedDNS"
                     },
                     {
                         "name": "GCPCustomAPIEndpoints"
-                    },
-                    {
-                        "name": "GCPLabelsTags"
                     },
                     {
                         "name": "GatewayAPI"
@@ -233,9 +233,6 @@
                     },
                     {
                         "name": "OpenShiftPodSecurityAdmission"
-                    },
-                    {
-                        "name": "PersistentIPsForVirtualization"
                     },
                     {
                         "name": "PinnedImages"
