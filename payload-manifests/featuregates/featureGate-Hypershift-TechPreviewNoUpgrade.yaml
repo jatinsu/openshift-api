@@ -153,9 +153,6 @@
                         "name": "GatewayAPIController"
                     },
                     {
-                        "name": "HardwareSpeed"
-                    },
-                    {
                         "name": "HighlyAvailableArbiter"
                     },
                     {
@@ -163,6 +160,9 @@
                     },
                     {
                         "name": "ImageStreamImportMode"
+                    },
+                    {
+                        "name": "ImageVolume"
                     },
                     {
                         "name": "IngressControllerDynamicConfigurationManager"
