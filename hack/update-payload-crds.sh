@@ -39,7 +39,7 @@ crd_globs="\
     config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_imagetagmirrorsets.crd.yaml
     config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_infrastructures-*.crd.yaml
     config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_ingresses.crd.yaml
-    config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_networks.crd.yaml
+    config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_networks-*.crd.yaml
     config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_nodes-*.crd.yaml
     config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_oauths.crd.yaml
     config/v1/zz_generated.crd-manifests/0000_10_config-operator_01_projects.crd.yaml
