@@ -16,22 +16,10 @@
             {
                 "disabled": [
                     {
-                        "name": "AWSClusterHostedDNS"
-                    },
-                    {
                         "name": "AWSDedicatedHosts"
                     },
                     {
                         "name": "AWSServiceLBNetworkSecurityGroup"
-                    },
-                    {
-                        "name": "AdditionalRoutingCapabilities"
-                    },
-                    {
-                        "name": "AdminNetworkPolicy"
-                    },
-                    {
-                        "name": "AlibabaPlatform"
                     },
                     {
                         "name": "AutomatedEtcdBackup"
@@ -43,13 +31,93 @@
                         "name": "AzureMultiDisk"
                     },
                     {
-                        "name": "AzureWorkloadIdentity"
-                    },
-                    {
                         "name": "BootImageSkewEnforcement"
                     },
                     {
                         "name": "BootcNodeManagement"
+                    },
+                    {
+                        "name": "ClusterAPIInstall"
+                    },
+                    {
+                        "name": "ClusterVersionOperatorConfiguration"
+                    },
+                    {
+                        "name": "EventedPLEG"
+                    },
+                    {
+                        "name": "ExternalSnapshotMetadata"
+                    },
+                    {
+                        "name": "ImageModeStatusReporting"
+                    },
+                    {
+                        "name": "InsightsConfig"
+                    },
+                    {
+                        "name": "InsightsOnDemandDataGather"
+                    },
+                    {
+                        "name": "MachineAPIOperatorDisableMachineHealthCheckController"
+                    },
+                    {
+                        "name": "ManagedBootImagesAzure"
+                    },
+                    {
+                        "name": "ManagedBootImagesvSphere"
+                    },
+                    {
+                        "name": "MultiArchInstallAzure"
+                    },
+                    {
+                        "name": "MultiDiskSetup"
+                    },
+                    {
+                        "name": "MutatingAdmissionPolicy"
+                    },
+                    {
+                        "name": "NewOLMCatalogdAPIV1Metas"
+                    },
+                    {
+                        "name": "NodeSwap"
+                    },
+                    {
+                        "name": "PreconfiguredUDNAddresses"
+                    },
+                    {
+                        "name": "ShortCertRotation"
+                    },
+                    {
+                        "name": "StoragePerformantSecurityPolicy"
+                    },
+                    {
+                        "name": "TranslateStreamCloseWebsocketRequests"
+                    },
+                    {
+                        "name": "VSphereMixedNodeEnv"
+                    },
+                    {
+                        "name": "VSphereMultiDisk"
+                    },
+                    {
+                        "name": "VolumeGroupSnapshot"
+                    }
+                ],
+                "enabled": [
+                    {
+                        "name": "AWSClusterHostedDNS"
+                    },
+                    {
+                        "name": "AdditionalRoutingCapabilities"
+                    },
+                    {
+                        "name": "AdminNetworkPolicy"
+                    },
+                    {
+                        "name": "AlibabaPlatform"
+                    },
+                    {
+                        "name": "AzureWorkloadIdentity"
                     },
                     {
                         "name": "BuildCSIVolumes"
@@ -61,16 +129,10 @@
                         "name": "ChunkSizeMiB"
                     },
                     {
-                        "name": "ClusterAPIInstall"
-                    },
-                    {
                         "name": "ClusterAPIInstallIBMCloud"
                     },
                     {
                         "name": "ClusterMonitoringConfig"
-                    },
-                    {
-                        "name": "ClusterVersionOperatorConfiguration"
                     },
                     {
                         "name": "ConsolePluginContentSecurityPolicy"
@@ -91,9 +153,6 @@
                         "name": "EtcdBackendQuota"
                     },
                     {
-                        "name": "EventedPLEG"
-                    },
-                    {
                         "name": "Example"
                     },
                     {
@@ -104,9 +163,6 @@
                     },
                     {
                         "name": "ExternalOIDCWithUIDAndExtraClaimMappings"
-                    },
-                    {
-                        "name": "ExternalSnapshotMetadata"
                     },
                     {
                         "name": "GCPClusterHostedDNS"
@@ -121,16 +177,13 @@
                         "name": "GatewayAPIController"
                     },
                     {
-                        "name": "HardwareSpeed"
-                    },
-                    {
                         "name": "HighlyAvailableArbiter"
                     },
                     {
-                        "name": "ImageModeStatusReporting"
+                        "name": "ImageStreamImportMode"
                     },
                     {
-                        "name": "ImageStreamImportMode"
+                        "name": "ImageVolume"
                     },
                     {
                         "name": "IngressControllerDynamicConfigurationManager"
@@ -139,13 +192,7 @@
                         "name": "IngressControllerLBSubnetsAWS"
                     },
                     {
-                        "name": "InsightsConfig"
-                    },
-                    {
                         "name": "InsightsConfigAPI"
-                    },
-                    {
-                        "name": "InsightsOnDemandDataGather"
                     },
                     {
                         "name": "InsightsRuntimeExtractor"
@@ -160,9 +207,6 @@
                         "name": "MachineAPIMigration"
                     },
                     {
-                        "name": "MachineAPIOperatorDisableMachineHealthCheckController"
-                    },
-                    {
                         "name": "MachineConfigNodes"
                     },
                     {
@@ -170,12 +214,6 @@
                     },
                     {
                         "name": "ManagedBootImagesAWS"
-                    },
-                    {
-                        "name": "ManagedBootImagesAzure"
-                    },
-                    {
-                        "name": "ManagedBootImagesvSphere"
                     },
                     {
                         "name": "MaxUnavailableStatefulSet"
@@ -190,12 +228,6 @@
                         "name": "MixedCPUsAllocation"
                     },
                     {
-                        "name": "MultiArchInstallAzure"
-                    },
-                    {
-                        "name": "MultiDiskSetup"
-                    },
-                    {
                         "name": "NetworkDiagnosticsConfig"
                     },
                     {
@@ -208,9 +240,6 @@
                         "name": "NewOLM"
                     },
                     {
-                        "name": "NewOLMCatalogdAPIV1Metas"
-                    },
-                    {
                         "name": "NewOLMOwnSingleNamespace"
                     },
                     {
@@ -218,9 +247,6 @@
                     },
                     {
                         "name": "NewOLMWebhookProviderOpenshiftServiceCA"
-                    },
-                    {
-                        "name": "NodeSwap"
                     },
                     {
                         "name": "NutanixMultiSubnets"
@@ -236,9 +262,6 @@
                     },
                     {
                         "name": "PinnedImages"
-                    },
-                    {
-                        "name": "PreconfiguredUDNAddresses"
                     },
                     {
                         "name": "ProcMountType"
@@ -259,9 +282,6 @@
                         "name": "SetEIPForNLBIngressController"
                     },
                     {
-                        "name": "ShortCertRotation"
-                    },
-                    {
                         "name": "SignatureStores"
                     },
                     {
@@ -269,12 +289,6 @@
                     },
                     {
                         "name": "SigstoreImageVerificationPKI"
-                    },
-                    {
-                        "name": "StoragePerformantSecurityPolicy"
-                    },
-                    {
-                        "name": "TranslateStreamCloseWebsocketRequests"
                     },
                     {
                         "name": "UpgradeStatus"
@@ -292,24 +306,10 @@
                         "name": "VSphereHostVMGroupZonal"
                     },
                     {
-                        "name": "VSphereMixedNodeEnv"
-                    },
-                    {
-                        "name": "VSphereMultiDisk"
-                    },
-                    {
                         "name": "VSphereMultiNetworks"
                     },
                     {
                         "name": "VolumeAttributesClass"
-                    },
-                    {
-                        "name": "VolumeGroupSnapshot"
-                    }
-                ],
-                "enabled": [
-                    {
-                        "name": "MutatingAdmissionPolicy"
                     }
                 ],
                 "version": ""
