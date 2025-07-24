@@ -342,7 +342,7 @@ var (
 					contactPerson("titzhak").
 					productScope(ocpSpecific).
 					enhancementPR(legacyFeatureGateWithoutEnhancement).
-					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
+					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade, configv1.OKD).
 					mustRegister()
 
 	FeatureGateManagedBootImages = newFeatureGate("ManagedBootImages").
@@ -406,7 +406,7 @@ var (
 					contactPerson("lmohanty").
 					productScope(ocpSpecific).
 					enhancementPR(legacyFeatureGateWithoutEnhancement).
-					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
+					enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade, configv1.OKD).
 					mustRegister()
 
 	FeatureGateKMSv1 = newFeatureGate("KMSv1").
