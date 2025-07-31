@@ -17,6 +17,9 @@
                         "name": "AWSClusterHostedDNS"
                     },
                     {
+                        "name": "AWSClusterHostedDNSInstall"
+                    },
+                    {
                         "name": "AWSDedicatedHosts"
                     },
                     {
@@ -24,6 +27,9 @@
                     },
                     {
                         "name": "AutomatedEtcdBackup"
+                    },
+                    {
+                        "name": "AzureClusterHostedDNSInstall"
                     },
                     {
                         "name": "AzureDedicatedHosts"
@@ -83,7 +89,13 @@
                         "name": "GCPClusterHostedDNS"
                     },
                     {
+                        "name": "GCPClusterHostedDNSInstall"
+                    },
+                    {
                         "name": "GCPCustomAPIEndpoints"
+                    },
+                    {
+                        "name": "GCPCustomAPIEndpointsInstall"
                     },
                     {
                         "name": "HighlyAvailableArbiter"
@@ -209,9 +221,6 @@
                         "name": "VSphereMixedNodeEnv"
                     },
                     {
-                        "name": "VSphereMultiDisk"
-                    },
-                    {
                         "name": "VolumeAttributesClass"
                     },
                     {
@@ -308,6 +317,9 @@
                     },
                     {
                         "name": "UserNamespacesSupport"
+                    },
+                    {
+                        "name": "VSphereMultiDisk"
                     },
                     {
                         "name": "VSphereMultiNetworks"

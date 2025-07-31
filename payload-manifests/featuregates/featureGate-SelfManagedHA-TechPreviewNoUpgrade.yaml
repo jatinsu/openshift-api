@@ -49,12 +49,18 @@
                         "name": "ShortCertRotation"
                     },
                     {
+                        "name": "SigstoreImageVerification"
+                    },
+                    {
                         "name": "VSphereMixedNodeEnv"
                     }
                 ],
                 "enabled": [
                     {
                         "name": "AWSClusterHostedDNS"
+                    },
+                    {
+                        "name": "AWSClusterHostedDNSInstall"
                     },
                     {
                         "name": "AWSDedicatedHosts"
@@ -73,6 +79,9 @@
                     },
                     {
                         "name": "AutomatedEtcdBackup"
+                    },
+                    {
+                        "name": "AzureClusterHostedDNSInstall"
                     },
                     {
                         "name": "AzureDedicatedHosts"
@@ -132,7 +141,13 @@
                         "name": "GCPClusterHostedDNS"
                     },
                     {
+                        "name": "GCPClusterHostedDNSInstall"
+                    },
+                    {
                         "name": "GCPCustomAPIEndpoints"
+                    },
+                    {
+                        "name": "GCPCustomAPIEndpointsInstall"
                     },
                     {
                         "name": "GatewayAPI"
@@ -274,9 +289,6 @@
                     },
                     {
                         "name": "SignatureStores"
-                    },
-                    {
-                        "name": "SigstoreImageVerification"
                     },
                     {
                         "name": "SigstoreImageVerificationPKI"
