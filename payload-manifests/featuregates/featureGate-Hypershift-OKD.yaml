@@ -40,19 +40,10 @@
                         "name": "ClusterAPIInstall"
                     },
                     {
-                        "name": "ClusterAPIInstallIBMCloud"
-                    },
-                    {
-                        "name": "ClusterMonitoringConfig"
-                    },
-                    {
                         "name": "ClusterVersionOperatorConfiguration"
                     },
                     {
-                        "name": "DualReplica"
-                    },
-                    {
-                        "name": "DyanmicServiceEndpointIBMCloud"
+                        "name": "DNSNameResolver"
                     },
                     {
                         "name": "EventedPLEG"
@@ -61,34 +52,13 @@
                         "name": "ExternalSnapshotMetadata"
                     },
                     {
-                        "name": "GCPCustomAPIEndpoints"
-                    },
-                    {
-                        "name": "HighlyAvailableArbiter"
-                    },
-                    {
                         "name": "ImageModeStatusReporting"
-                    },
-                    {
-                        "name": "ImageStreamImportMode"
-                    },
-                    {
-                        "name": "ImageVolume"
-                    },
-                    {
-                        "name": "IngressControllerDynamicConfigurationManager"
                     },
                     {
                         "name": "InsightsConfig"
                     },
                     {
                         "name": "InsightsOnDemandDataGather"
-                    },
-                    {
-                        "name": "KMSEncryptionProvider"
-                    },
-                    {
-                        "name": "MachineAPIMigration"
                     },
                     {
                         "name": "MachineAPIOperatorDisableMachineHealthCheckController"
@@ -98,9 +68,6 @@
                     },
                     {
                         "name": "ManagedBootImagesvSphere"
-                    },
-                    {
-                        "name": "MinimumKubeletVersion"
                     },
                     {
                         "name": "MultiArchInstallAzure"
@@ -133,13 +100,7 @@
                         "name": "NodeSwap"
                     },
                     {
-                        "name": "NutanixMultiSubnets"
-                    },
-                    {
                         "name": "PreconfiguredUDNAddresses"
-                    },
-                    {
-                        "name": "SELinuxMount"
                     },
                     {
                         "name": "ShortCertRotation"
@@ -149,9 +110,6 @@
                     },
                     {
                         "name": "TranslateStreamCloseWebsocketRequests"
-                    },
-                    {
-                        "name": "VSphereConfigurableMaxAllowedBlockVolumesPerNode"
                     },
                     {
                         "name": "VSphereMixedNodeEnv"
@@ -189,10 +147,19 @@
                         "name": "ChunkSizeMiB"
                     },
                     {
+                        "name": "ClusterAPIInstallIBMCloud"
+                    },
+                    {
+                        "name": "ClusterMonitoringConfig"
+                    },
+                    {
                         "name": "ConsolePluginContentSecurityPolicy"
                     },
                     {
-                        "name": "DNSNameResolver"
+                        "name": "DualReplica"
+                    },
+                    {
+                        "name": "DyanmicServiceEndpointIBMCloud"
                     },
                     {
                         "name": "DynamicResourceAllocation"
@@ -216,10 +183,25 @@
                         "name": "GCPClusterHostedDNS"
                     },
                     {
+                        "name": "GCPCustomAPIEndpoints"
+                    },
+                    {
                         "name": "GatewayAPI"
                     },
                     {
                         "name": "GatewayAPIController"
+                    },
+                    {
+                        "name": "HighlyAvailableArbiter"
+                    },
+                    {
+                        "name": "ImageStreamImportMode"
+                    },
+                    {
+                        "name": "ImageVolume"
+                    },
+                    {
+                        "name": "IngressControllerDynamicConfigurationManager"
                     },
                     {
                         "name": "IngressControllerLBSubnetsAWS"
@@ -231,7 +213,13 @@
                         "name": "InsightsRuntimeExtractor"
                     },
                     {
+                        "name": "KMSEncryptionProvider"
+                    },
+                    {
                         "name": "KMSv1"
+                    },
+                    {
+                        "name": "MachineAPIMigration"
                     },
                     {
                         "name": "MachineConfigNodes"
@@ -249,6 +237,9 @@
                         "name": "MetricsCollectionProfiles"
                     },
                     {
+                        "name": "MinimumKubeletVersion"
+                    },
+                    {
                         "name": "MixedCPUsAllocation"
                     },
                     {
@@ -259,6 +250,9 @@
                     },
                     {
                         "name": "NetworkSegmentation"
+                    },
+                    {
+                        "name": "NutanixMultiSubnets"
                     },
                     {
                         "name": "OVNObservability"
@@ -280,6 +274,9 @@
                     },
                     {
                         "name": "RouteExternalCertificate"
+                    },
+                    {
+                        "name": "SELinuxMount"
                     },
                     {
                         "name": "ServiceAccountTokenNodeBinding"
@@ -304,6 +301,9 @@
                     },
                     {
                         "name": "UserNamespacesSupport"
+                    },
+                    {
+                        "name": "VSphereConfigurableMaxAllowedBlockVolumesPerNode"
                     },
                     {
                         "name": "VSphereHostVMGroupZonal"
