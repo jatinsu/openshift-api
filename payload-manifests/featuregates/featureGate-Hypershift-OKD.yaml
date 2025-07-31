@@ -16,6 +16,9 @@
             {
                 "disabled": [
                     {
+                        "name": "AWSClusterHostedDNSInstall"
+                    },
+                    {
                         "name": "AWSDedicatedHosts"
                     },
                     {
@@ -23,6 +26,9 @@
                     },
                     {
                         "name": "AutomatedEtcdBackup"
+                    },
+                    {
+                        "name": "AzureClusterHostedDNSInstall"
                     },
                     {
                         "name": "AzureDedicatedHosts"
@@ -50,6 +56,12 @@
                     },
                     {
                         "name": "ExternalSnapshotMetadata"
+                    },
+                    {
+                        "name": "GCPClusterHostedDNSInstall"
+                    },
+                    {
+                        "name": "GCPCustomAPIEndpointsInstall"
                     },
                     {
                         "name": "ImageModeStatusReporting"
@@ -106,6 +118,9 @@
                         "name": "ShortCertRotation"
                     },
                     {
+                        "name": "SigstoreImageVerification"
+                    },
+                    {
                         "name": "StoragePerformantSecurityPolicy"
                     },
                     {
@@ -113,9 +128,6 @@
                     },
                     {
                         "name": "VSphereMixedNodeEnv"
-                    },
-                    {
-                        "name": "VSphereMultiDisk"
                     },
                     {
                         "name": "VolumeGroupSnapshot"
@@ -288,9 +300,6 @@
                         "name": "SignatureStores"
                     },
                     {
-                        "name": "SigstoreImageVerification"
-                    },
-                    {
                         "name": "SigstoreImageVerificationPKI"
                     },
                     {
@@ -307,6 +316,9 @@
                     },
                     {
                         "name": "VSphereHostVMGroupZonal"
+                    },
+                    {
+                        "name": "VSphereMultiDisk"
                     },
                     {
                         "name": "VSphereMultiNetworks"
