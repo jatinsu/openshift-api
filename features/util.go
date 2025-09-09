@@ -34,6 +34,7 @@ type ClusterProfileName string
 var (
 	Hypershift         = ClusterProfileName("include.release.openshift.io/ibm-cloud-managed")
 	SelfManaged        = ClusterProfileName("include.release.openshift.io/self-managed-high-availability")
+	OKD                = ClusterProfileName("include.release.openshift.io/okd")
 	AllClusterProfiles = []ClusterProfileName{Hypershift, SelfManaged}
 )
 

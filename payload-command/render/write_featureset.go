@@ -16,6 +16,7 @@ var (
 	clusterProfileToShortName = map[features.ClusterProfileName]string{
 		features.Hypershift:  "Hypershift",
 		features.SelfManaged: "SelfManagedHA",
+		features.OKD:         "OKD",
 	}
 )
 
