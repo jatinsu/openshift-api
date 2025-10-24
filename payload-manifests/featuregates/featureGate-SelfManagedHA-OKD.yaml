@@ -54,6 +54,9 @@
                         "name": "CBORServingAndStorage"
                     },
                     {
+                        "name": "CRDCompatibilityRequirementOperator"
+                    },
+                    {
                         "name": "ClientsAllowCBOR"
                     },
                     {
@@ -64,6 +67,9 @@
                     },
                     {
                         "name": "ClusterAPIInstallIBMCloud"
+                    },
+                    {
+                        "name": "ClusterAPIMachineManagement"
                     },
                     {
                         "name": "ClusterAPIMachineManagementVSphere"
@@ -144,13 +150,7 @@
                         "name": "MachineAPIOperatorDisableMachineHealthCheckController"
                     },
                     {
-                        "name": "ManagedBootImagesAzure"
-                    },
-                    {
                         "name": "ManagedBootImagesCPMS"
-                    },
-                    {
-                        "name": "ManagedBootImagesvSphere"
                     },
                     {
                         "name": "MaxUnavailableStatefulSet"
@@ -168,6 +168,9 @@
                         "name": "MultiDiskSetup"
                     },
                     {
+                        "name": "MutableCSINodeAllocatableCount"
+                    },
+                    {
                         "name": "MutatingAdmissionPolicy"
                     },
                     {
@@ -180,19 +183,16 @@
                         "name": "NewOLMPreflightPermissionChecks"
                     },
                     {
-                        "name": "NewOLMWebhookProviderOpenshiftServiceCA"
-                    },
-                    {
                         "name": "NoRegistryClusterOperations"
                     },
                     {
                         "name": "NutanixMultiSubnets"
                     },
                     {
-                        "name": "OVNObservability"
+                        "name": "OSStreams"
                     },
                     {
-                        "name": "PreconfiguredUDNAddresses"
+                        "name": "OVNObservability"
                     },
                     {
                         "name": "SELinuxMount"
@@ -278,6 +278,12 @@
                         "name": "ManagedBootImagesAWS"
                     },
                     {
+                        "name": "ManagedBootImagesAzure"
+                    },
+                    {
+                        "name": "ManagedBootImagesvSphere"
+                    },
+                    {
                         "name": "MetricsCollectionProfiles"
                     },
                     {
@@ -293,10 +299,16 @@
                         "name": "NewOLM"
                     },
                     {
+                        "name": "NewOLMWebhookProviderOpenshiftServiceCA"
+                    },
+                    {
                         "name": "OpenShiftPodSecurityAdmission"
                     },
                     {
                         "name": "PinnedImages"
+                    },
+                    {
+                        "name": "PreconfiguredUDNAddresses"
                     },
                     {
                         "name": "ProcMountType"
