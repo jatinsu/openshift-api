@@ -75,7 +75,7 @@ type FeatureGateSelection struct {
 	// +kubebuilder:validation:XValidation:rule="oldSelf == 'CustomNoUpgrade' ? self == 'CustomNoUpgrade' : true",message="CustomNoUpgrade may not be changed"
 	// +kubebuilder:validation:XValidation:rule="oldSelf == 'TechPreviewNoUpgrade' ? self == 'TechPreviewNoUpgrade' : true",message="TechPreviewNoUpgrade may not be changed"
 	// +kubebuilder:validation:XValidation:rule="oldSelf == 'DevPreviewNoUpgrade' ? self == 'DevPreviewNoUpgrade' : true",message="DevPreviewNoUpgrade may not be changed"
-	// +kubebuilder:validation:XValidation:rule="oldSelf == 'OKD' ? self == 'OKD' : true",message="OKD may not be changed"
+	// +kubebuilder:validation:XValidation:rule="oldSelf == 'OKD' ? self != 'Default' : true",message="OKD cannot transition to Default"
 	FeatureSet FeatureSet `json:"featureSet,omitempty"`
 
 	// customNoUpgrade allows the enabling or disabling of any feature. Turning this feature set on IS NOT SUPPORTED, CANNOT BE UNDONE, and PREVENTS UPGRADES.
