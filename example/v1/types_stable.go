@@ -204,7 +204,6 @@ type SubnetsWithExclusions struct {
 	// The subnets in this list must be subnetworks of the subnets in the subnets list.
 	// +kubebuilder:validation:MaxItems=25
 	// +optional
-	// +listType=atomic
 	ExcludeSubnets []CIDR `json:"excludeSubnets,omitempty"`
 }
 
